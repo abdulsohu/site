@@ -1,6 +1,4 @@
 import React from "react"
-import Emoji from "./emoji.js"
-
 require("../styles/styles.scss")
 
 const NavBar = () => {
@@ -10,7 +8,7 @@ const NavBar = () => {
         <div className="column is-narrow">
           <a href="/">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
-              Home &nbsp; <Emoji symbol="🏠" label="home" />
+              Home
             </span>
           </a>
         </div>
@@ -18,7 +16,7 @@ const NavBar = () => {
         <div className="column is-narrow">
           <a href="/blog">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
-              Blog &nbsp; <Emoji symbol="📝" label="pencil and paper" />
+              Blog
             </span>
           </a>
         </div>
@@ -26,7 +24,7 @@ const NavBar = () => {
         <div className="column is-narrow">
           <a href="/design">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
-              Design &nbsp; <Emoji symbol="🎨" label="artist palette" />
+              Design
             </span>
           </a>
         </div>
@@ -34,7 +32,7 @@ const NavBar = () => {
         <div className="column is-narrow">
           <a href="/projects">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
-              Ideas &nbsp; <Emoji symbol="💡" label="idea bulb flashes" />
+              Ideas
             </span>
           </a>
         </div>

@@ -46,13 +46,13 @@ const Projects = () => (
               <a href="mailto:sohu@sas.upenn.edu"> email</a> (or a pull
               request)!
             </p>
+            <p style={{ textAlign: "right" }}>
+              <a href="https://github.com/abdulsohu/site" className="hvr-grow">
+                <ion-icon name="logo-github" size="large"></ion-icon>
+              </a>
+            </p>
           </div>
         </div>
-        <span className="hvr-grow">
-          <a href="/404">
-            <ion-icon name="logo-github" size="large"></ion-icon>
-          </a>
-        </span>
       </article>
     </div>
 
@@ -69,20 +69,23 @@ const Projects = () => (
           <div className="content">
             <p>
               <h3>
-                <strong>OscarScraper</strong>
+                <strong>Oscar Scraper</strong>
               </h3>
               A webscraper that allows access to common
               <a href="https://oscar.go.com/"> Oscar </a>
               queries. The Java code for this project serves as a good
               introduction to <a href="https://jsoup.org/">JSoup</a>.
             </p>
+            <p style={{ textAlign: "right" }}>
+              <a
+                href="https://github.com/abdulsohu/OscarScraper"
+                className="hvr-grow"
+              >
+                <ion-icon name="logo-github" size="large"></ion-icon>
+              </a>
+            </p>
           </div>
         </div>
-        <span className="hvr-grow">
-          <a href="https://github.com/abdulsohu/OscarScraper">
-            <ion-icon name="logo-github" size="large"></ion-icon>
-          </a>
-        </span>
       </article>
     </div>
   </Layout>
