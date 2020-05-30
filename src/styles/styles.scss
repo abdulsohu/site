@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+@import "../../node_modules/bulma/bulma.sass";
+@import "../styles/github-markdown.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@450;750;800;900&family=Raleway:wght@400&display=swap");
+
+$playfair-display: "Playfair Display", serif;
+$raleway: "Raleway", sans-serif;
+
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $playfair-display;
+  font-weight: 750;
+}
+
+.subtitle {
+  font-family: $playfair-display;
+  font-weight: 450;
+}
+
+.tag {
+  font-family: $raleway;
+}
+
+.footer {
+  padding: 0.5rem 0rem 0rem;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+
+.number {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 290486px;
+  display: inline;
+  font-size: inherit;
+  justify-content: center;
+  margin-right: 0;
+  min-width: 2.5em;
+  padding: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+p,
+li {
+  font-family: $raleway;
+  font-weight: 400;
+}
+
+footer {
+  border-top: thin solid #4a4a4a;
+}
+
+ion-icon {
+  font-size: 16px;
+  color: #4a4a4a;
+  position: relative;
+  top: 2px;
+}
+
+/*
+Elements by id, for some handcrafted beauty.
+*/
+
+#tagIndexArrow {
+  stroke-width: 16px;
+  color: #363636;
+}
+
+#heart:hover {
+  color: #e61d1d;
+}
+
+#heart-footer {
+  font-size: 12px;
+}
+
+#heart-footer:hover {
+  color: #e61d1d;
+}
+
+/*
+Hover effect borrowed from
+ https://github.com/IanLunn/Hover/blob/master/README.md#hovercss
+*/
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
