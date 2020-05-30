@@ -24,8 +24,8 @@ const Layout = ({ children }) => {
         ></script>
       </Helmet>
       <div className="container">
-        <div className="columns is-centered is-mobile">
-          <div className="column"></div>
+        <div className="columns">
+          <div className="column is-one-fourth"></div>
 
           <div className="column">
             <NavBar></NavBar>
