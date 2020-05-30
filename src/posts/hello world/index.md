@@ -1,285 +1,44 @@
 ---
 path: "/blog/helloworld"
-date: "May 31, 2020"
+date: "May 30, 2020"
 title: "Hello World"
-tags: ["personal", "notes"]
+tags: ["notes"]
 excerpt: "The birth of this website."
 ---
 
-The quick brown fox[^1] jumped over the lazy dog[^2].
+# The Creation of This Website
 
-Inline footnote[^Text of inline footnote] definition.
+> The not so many reasons I built this site.
 
-[^1]: Foxes are red
-[^2]: Dogs are usually not red
+## Some Background
 
-# A Gentle Introduction To Word Embeddings
+During the [COVID-19 Lockdown](http://letmegooglethat.com/?q=covid+19), I had to do something that would render my time productive, and preferaby, didn't require more of me than sitting at my computer and figuring out things (because I know no better). I wasn't quite sure what that something would be. In the meantime, one of my friends introduced me to [Github's Education Pack](https://education.github.com/pack). While that didn't mean much to me at first glance, everything suddenly clicked when I was wrapping up one of my final projects for a Python course: building a website in the [Django]() framework. In line with my instructor's expectations, the idea that making a website is _not that hard_ planted itself, and promptly so.
 
-## h2 Heading
+Surely the jump from running a website on my computer's `localhost:3000` to running one that is globally available couldn't be ~~that~~ hard. I truly wish I could say "well, it wasn't" or "well, I couldn't be more wrong about that": both these endings give you the expected conclusion every reader is always looking for. Frankly, however, at times the process was harder that I thought it could be and often, it was actually easier than I expected it to be. It was a good mix, the kind that leaves you sastisfied with the final product.
 
-### h3 Heading
+Now, I could have just used a bespoke provider along the likes of [WordPress](https://wordpress.com/) and satisfied my aesthetic urges with the a selection of bespoke themes that came with that serving. But in the words of my finance friend who wouldn't get why I wanted to spend so much time doing it all from scratch: "in the computer science community, you're looked down upon if you don't build your own website". Now, I'm not exactly sure how true that is, but it sounded right. Besides, it is pretty commonplace for computer scientists to maintain an online presence of sorts where they document their accomplishments and publish their technical musings. As you can see, I am no different.
 
-#### h4 Heading
+## This Site
 
-##### h5 Heading
+I considered using the Django framework to build this site, having had some prior exposure with it. But, since the design for my website was inspired by [Arun Kirubarajan's](https://kirubarajan.com/), and his is built with [Gatsby](https://www.gatsbyjs.org/) (which uses React behind the scenes), who was I to deviate from the new norm. Moreover, I had just learned about static websites and really wanted this site to be one. Another motivation of why I wanted to build this site was to learn something new, so understandably, having no prior experience with [React](https://reactjs.org/), it just seemed naturally fitting that I used Gatsby.
 
-###### h6 Heading
+I dipped my toes into Jekyll, Hugo and Middleman as well, for research's sake, but the resources and documentation in the GatsbyJS community were overwhelmingly impressive and no major _comparative_ red flags arose during the time I was considering all my options. In fact, there seemed to be an assortment of official and community plugins to achieve almost any task imaginable and that was well, really nice.​
 
----
+I would like to go full-blown mode on the tiniest details of this website's construction, some tutorials maybe. That does require some work on my part, and I would like to start with an outline before anything else (yes, this post isn't outlined​). Also, since there is considerable instructional material available online (including the [source code](https://www.abdulsohu.com/projects) for this website), I can afford to put off the tutorials for now.
 
-```javascript
-// In your gatsby-config.js
-plugins: [
-  `gatsby-plugin-sharp`,
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            // It's important to specify the maxWidth (in pixels) of
-            // the content container as this plugin uses this as the
-            // base for generating different widths of each image.
-            maxWidth: 590,
-          },
-        },
-      ],
-    },
-  },
-]
-```
+## Looking Ahead
 
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,, -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-## Emphasis
-
-**This is bold text**
-
-**This is bold text**
-
-_This is italic text_
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-
-## Lists
-
-Unordered
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-1) You can use sequential numbers...
-1) ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
-We first want to run `pip install pymagnitude` to install the embedding format. Then we can download the pre-trained word2vec embeddings using some `wget` magic:
-
-```bash
-wget http://magnitude.plasticity.ai/word2vec/light/GoogleNews-vectors-negative300.magnitude
-```
-
-Finally, we can import the package and start writing queries:
-
-```python
-from pymagnitude import Magnitude
-vectors = Magnitude("GoogleNews-vectors-negative300.magnitude")
-
-print(vectors.distance("cat", "dog"))
-```
-
-There's a lot of great documentation for how you can query the vectories and gain interesting insights available at the GitHub repository for Magnitude [here](https://github.com/plasticityai/magnitude).
-
-### Training Word Embeddings
-
-Training word embeddings with a given dataset is easy using `gensim`, a Python package that abstracts the implementation of the `word2vec` neural network. This is one of the most commonly used Python package for generating word embeddings.
-
-```python
-from gensim.models import Word2Vec
-model = Word2Vec(sentences)
-
-print(model)
-```
-
-### Extra: Visualizing Word Embeddings with t-SNE
-
-It would be cool to visualize the word vectors. Sadly, we humans are mostly incapable of visualizing in the 300th dimension.
-
-Instead, we can use a process called **dimensionality reduction** which will allow us to turn our 300 dimensions into regular 2D vectors that we can visualize. We will be using an algorithm called t-SNE (t-Distributed Stochastic Neighbouring Entities) to perform our dimensionality reduction from 300 dimensions to 2 dimensions.
-
-You might be wondering how we can find a correspondance of vectors in $\mathbb{R}^{300}$ to vectors in $\mathbb{R}^2$. Why don't we just work with these 2D vectors in the first place? The truth is, these new embeddings (in 2D) actually do lose information. This seems obvious since we are going from a high dimensional space to a lower dimensional space. But more concretely, if we imagine an embedding space as being a distribution of points, we can measure the Kullback-Leiber Divergence of the original vectors and the transformed vectors:
-
-$$
-KL(p || q) = \sum_x {~ p(x) \cdot \operatorname{log} ~ \frac{p(x)}{q(x)}}
-$$
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-```javascript
-console.log(foo(5))
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option |                                                               Description |
-| -----: | ------------------------------------------------------------------------: |
-|   data | path to data files to supply the data that will be passed into templates. |
-| engine |    engine to be used for processing templates. Handlebars is the default. |
-|    ext |                                      extension to be used for dest files. |
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-: Definition 1
-with lazy continuation.
-
-Term 2 with _inline markup_ :Definition 2
-
-    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-~ Definition 1
-
-Term 2
-~ Definition 2a
-~ Definition 2b
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-\*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-_here be dragons_
-:::
+For someone who browses [Awwwards](https://www.awwwards.com/) because it's therapeutic, it's actually quite foreseeable that my work here, with this website, is not finished. Though, like all good things before they're discovered, I'm not sure what my next discovery in terms of this website is going to be. As of now, having spent nearly two weeks and after putting a lot of thought into the current rendition, I think I can sit back a bit and work on something else.
 
 ```java
-for (int i =0; i <= 10; i++) {
-  System.out.println("Go goa gone!");
-}
+public class YoursTruly {
 
-return;
+  public static void main(String[] args) {
+    loggingOff();
+  }
+
+  public static void loggingOff() {
+    System.out.println("Hello world!");
+  }
+}
 ```
