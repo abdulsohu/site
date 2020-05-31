@@ -30,9 +30,9 @@ const IndexPage = () => (
       I'm an undergraduate at the University of Pennsylvania studying computer
       science and logic. At Penn, I also maintain the front-end for
       <a href="https://www.nso.upenn.edu/"> NSOAI</a>, and this summer, I will
-      beta test a computer science
+      be beta testing a computer science
       <a href="https://www.seas.upenn.edu/~cis550/"> course </a>
-      taught there!
+      as well!
     </p>
     <br />
     <p>

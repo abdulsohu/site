@@ -25,7 +25,7 @@ const Blog = ({ data }) => {
 
       <p>
         I like to write about interesting topics, things I care about, and
-        (sometimes) my personal life. Adult supervision advised.
+        (sometimes) my personal life. Adult supervision not necessary.
       </p>
 
       <br />

@@ -15,3 +15,9 @@ featuredImgAlt: This website's graphic design (stuff).
 !["Mountains with a starry sky"](https://images.unsplash.com/photo-1560237731-890b122a9b6c)
 
 Hello World!
+
+I didn't design this starry sky: nature did. For the time being, I'm working
+on some design-related things and as is evident from the quote above, thinking about what
+is going to be a super convenient workflow for me in terms of uploading the things I create.
+Till then, stay tuned... and enjoy this picture of mountains with a starry sky, courtesy of
+[Unsplash](www.unsplash.com)!
