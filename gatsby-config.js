@@ -3,6 +3,7 @@ module.exports = {
     title: `Abdul Sohu`,
     description: `Abdul Sohu's Blog`,
     author: `@abdulsohu`,
+    siteUrl: `www.abdulsohu.com`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
