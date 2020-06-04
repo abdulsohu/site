@@ -41,13 +41,20 @@ const Projects = () => (
                 <strong>My Personal Website</strong>
               </h3>
               I built this website (with my bare hands) using the
-              <a href="https://www.gatsbyjs.org/"> Gatsby </a>
+              <a href="https://www.gatsbyjs.org/" target="_blank">
+                {" "}
+                Gatsby{" "}
+              </a>
               framework. Let me know how I can improve it via{" "}
               <a href="mailto:sohu@sas.upenn.edu"> email</a> (or a pull
               request)!
             </p>
             <p style={{ textAlign: "right" }}>
-              <a href="https://github.com/abdulsohu/site" className="hvr-grow">
+              <a
+                href="https://github.com/abdulsohu/site"
+                className="hvr-grow"
+                target="_blank"
+              >
                 <ion-icon name="logo-github" size="large"></ion-icon>
               </a>
             </p>
@@ -72,14 +79,22 @@ const Projects = () => (
                 <strong>Oscar Scraper</strong>
               </h3>
               A webscraper that allows access to common
-              <a href="https://oscar.go.com/"> Oscar </a>
+              <a href="https://oscar.go.com/" target="_blank">
+                {" "}
+                Oscar{" "}
+              </a>
               queries. The Java code for this project serves as a good
-              introduction to <a href="https://jsoup.org/">JSoup</a>.
+              introduction to{" "}
+              <a href="https://jsoup.org/" target="_blank">
+                JSoup
+              </a>
+              .
             </p>
             <p style={{ textAlign: "right" }}>
               <a
                 href="https://github.com/abdulsohu/OscarScraper"
                 className="hvr-grow"
+                target="_blank"
               >
                 <ion-icon name="logo-github" size="large"></ion-icon>
               </a>

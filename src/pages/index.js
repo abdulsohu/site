@@ -29,17 +29,26 @@ const IndexPage = () => (
     <p>
       I'm an undergraduate at the University of Pennsylvania studying computer
       science and logic. At Penn, I also maintain the front-end for
-      <a href="https://www.nso.upenn.edu/"> NSOAI</a>, and this summer, I will
-      be beta testing a computer science
-      <a href="https://www.seas.upenn.edu/~cis550/"> course </a>
+      <a href="https://www.nso.upenn.edu/" target="_blank">
+        {" "}
+        NSOAI
+      </a>
+      , and this summer, I will be beta testing a computer science
+      <a href="https://www.seas.upenn.edu/~cis550/" target="_blank">
+        {" "}
+        course{" "}
+      </a>
       as well!
     </p>
     <br />
     <p>
       Outside of school, I like playing chess, and admiring cool things on
-      <a href="https://dribbble.com/"> Dribbble</a> (sometimes making a few of
-      my own). On this website, you can learn more about what I am upto! If you
-      would like to reach out, feel free to
+      <a href="https://dribbble.com/" target="_blank">
+        {" "}
+        Dribbble
+      </a>{" "}
+      (sometimes making a few of my own). On this website, you can learn more
+      about what I am upto! If you would like to reach out, feel free to
       <a href="mailto:sohu@sas.upenn.edu">
         {" "}
         email{" "}
