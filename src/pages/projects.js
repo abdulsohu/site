@@ -41,7 +41,11 @@ const Projects = () => (
                 <strong>My Personal Website</strong>
               </h3>
               I built this website (with my bare hands) using the
-              <a href="https://www.gatsbyjs.org/" target="_blank">
+              <a
+                href="https://www.gatsbyjs.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 Gatsby{" "}
               </a>
@@ -54,6 +58,7 @@ const Projects = () => (
                 href="https://github.com/abdulsohu/site"
                 className="hvr-grow"
                 target="_blank"
+                rel="noreferrer"
               >
                 <ion-icon name="logo-github" size="large"></ion-icon>
               </a>
@@ -79,7 +84,7 @@ const Projects = () => (
                 <strong>Oscar Scraper</strong>
               </h3>
               A webscraper that allows access to common
-              <a href="https://oscar.go.com/" target="_blank">
+              <a href="https://oscar.go.com/" target="_blank" rel="noreferrer">
                 {" "}
                 Oscar{" "}
               </a>

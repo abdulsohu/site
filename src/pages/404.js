@@ -20,7 +20,10 @@ const NotFoundPage = () => (
 
     <h1>PAGE NOT FOUND</h1>
 
-    <p>You just hit a route that doesn&#39;t exist... ah the sadness.</p>
+    <p>
+      Some pages don't exist, and others are just hiding. You just hit something
+      that doesn&#39;t exist... ah the sadness.
+    </p>
   </Layout>
 )
 

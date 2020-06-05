@@ -29,12 +29,16 @@ const IndexPage = () => (
     <p>
       I'm an undergraduate at the University of Pennsylvania studying computer
       science and logic. At Penn, I also maintain the front-end for
-      <a href="https://www.nso.upenn.edu/" target="_blank">
+      <a href="https://www.nso.upenn.edu/" target="_blank" rel="noreferrer">
         {" "}
         NSOAI
       </a>
       , and this summer, I will be beta testing a computer science
-      <a href="https://www.seas.upenn.edu/~cis550/" target="_blank">
+      <a
+        href="https://www.seas.upenn.edu/~cis550/"
+        target="_blank"
+        rel="noreferrer"
+      >
         {" "}
         course{" "}
       </a>
@@ -43,7 +47,7 @@ const IndexPage = () => (
     <br />
     <p>
       Outside of school, I like playing chess, and admiring cool things on
-      <a href="https://dribbble.com/" target="_blank">
+      <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
         {" "}
         Dribbble
       </a>{" "}
