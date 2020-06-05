@@ -90,7 +90,7 @@ const Projects = () => (
               </a>
               queries. The Java code for this project serves as a good
               introduction to{" "}
-              <a href="https://jsoup.org/" target="_blank">
+              <a href="https://jsoup.org/" target="_blank" rel="noreferrer">
                 JSoup
               </a>
               .
@@ -100,6 +100,7 @@ const Projects = () => (
                 href="https://github.com/abdulsohu/OscarScraper"
                 className="hvr-grow"
                 target="_blank"
+                rel="noreferrer"
               >
                 <ion-icon name="logo-github" size="large"></ion-icon>
               </a>
