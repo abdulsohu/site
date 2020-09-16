@@ -4,11 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BloomingCreatures from "../images/blooming.svg"
-import ResumePicture from "../images/resume.png"
-import ResumePdf from "/Users/abdulmoizmunir/abdulsohu/public/static/d/Resume.pdf"
+import ResumePdf from "../files/Resume.pdf"
 
 const Resume = () => (
-  <Layout resume={ResumePicture}>
+  <Layout>
     <SEO title="Abdul Sohu"></SEO>
     <div className="image">
       <img
@@ -22,7 +21,7 @@ const Resume = () => (
         alt="Professional blooming creatures welcome you to my resume page!"
       />
     </div>
-    <h1 className="title is-2">some professionality.</h1>
+    <h1 className="title is-2">some professional.</h1>
     <p>
       Are you a recruiter? Someone with a purpose? Or someone who has a curious
       cat? Consider{" "}
@@ -50,6 +49,23 @@ const Resume = () => (
         <ion-icon
           style={{ color: "#2877b5" }}
           name="logo-linkedin"
+          size="large"
+          className="hvr-grow"
+        ></ion-icon>
+      </a>
+    </p>
+
+    <p>
+      Not really? No worries, let's <em>git</em> together on{" "}
+      <a
+        style={{ position: "relative", bottom: "-1px", left: "2px" }}
+        href="https://github.com/abdulsohu"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <ion-icon
+          style={{ color: "#24292e" }}
+          name="logo-github"
           size="large"
           className="hvr-grow"
         ></ion-icon>
