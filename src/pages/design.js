@@ -18,7 +18,7 @@ const Design = ({ data }) => {
         style={{ paddingTop: "0rem", paddingBottom: "2rem" }}
         className="image is-square"
         src={DesignCreatures}
-        alt="Design from me and these creatures!"
+        alt="My design projects!"
       />
 
       <h1 className="title is-2">some beauty.</h1>

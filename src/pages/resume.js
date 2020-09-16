@@ -1,0 +1,63 @@
+import React from "react"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+import BloomingCreatures from "../images/blooming.svg"
+import ResumePicture from "../images/resume.png"
+import ResumePdf from "/Users/abdulmoizmunir/abdulsohu/public/static/d/Resume.pdf"
+
+const Resume = () => (
+  <Layout resume={ResumePicture}>
+    <SEO title="Abdul Sohu"></SEO>
+    <div className="image">
+      <img
+        style={{
+          paddingTop: "0.5rem",
+          paddingBottom: "1rem",
+          width: "100%",
+          height: "auto",
+        }}
+        src={BloomingCreatures}
+        alt="Professional blooming creatures welcome you to my resume page!"
+      />
+    </div>
+    <h1 className="title is-2">some professionality.</h1>
+    <p>
+      Are you a recruiter? Someone with a purpose? Or someone who has a curious
+      cat? Consider{" "}
+      <a href={ResumePdf} target="_blank" rel="noreferrer">
+        downloading
+      </a>{" "}
+      my résumé, and carrying it to all the places you know{" "}
+      <ion-icon
+        name="airplane-outline"
+        size="medium"
+        className="hvr-grow"
+      ></ion-icon>
+    </p>
+
+    <br />
+
+    <p>
+      Also, I have a feeling we are meant to connect on{" "}
+      <a
+        style={{ position: "relative", bottom: "-1px", left: "2px" }}
+        href="https://www.linkedin.com/in/sohu/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <ion-icon
+          style={{ color: "#2877b5" }}
+          name="logo-linkedin"
+          size="large"
+          className="hvr-grow"
+        ></ion-icon>
+      </a>
+    </p>
+
+    <br />
+  </Layout>
+)
+
+export default Resume

@@ -15,7 +15,7 @@ const Projects = () => (
       style={{ paddingTop: "0.5rem", paddingBottom: "2rem" }}
       className="image is-square"
       src={IdeasCreatures}
-      alt="Ideas from me and these creatures!"
+      alt="These are the projects accomplished by me and these cute little creatures!"
     />
 
     <h1 className="title is-2">some ideas!</h1>

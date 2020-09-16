@@ -18,7 +18,7 @@ const IndexPage = () => (
           height: "auto",
         }}
         src={HelloCreatures}
-        alt="Hello from me and these creatures!"
+        alt="Hello from me, and these cute little creatures!"
       />
     </div>
 

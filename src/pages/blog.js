@@ -18,7 +18,7 @@ const Blog = ({ data }) => {
         style={{ paddingTop: "0.5rem", paddingBottom: "2rem" }}
         className="image is-square"
         src={WritingCreatures}
-        alt="Writing from me and these creatures!"
+        alt="I write, and these cute little creatures assist me with it!"
       />
 
       <h1 className="title is-2">some writing.</h1>
