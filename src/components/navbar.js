@@ -21,13 +21,15 @@ const NavBar = () => {
           </a>
         </div>
 
-        <div className="column is-narrow">
+        {/**
+           * <div className="column is-narrow">
           <a href="/design">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
               Design
             </span>
           </a>
         </div>
+           */}
 
         <div className="column is-narrow">
           <a href="/projects">
