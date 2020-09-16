@@ -12,8 +12,8 @@ function getColour(name, size) {
   if (name === "personal") return "is-danger is-light" + sizer
   if (name === "design") return "is-primary is-light" + sizer
   if (name === "notes") return "is-warning is-light" + sizer
-  if (name === "series") return "is-info is-light" + sizer
-  if (name === "programming") return "is-link is-light" + sizer
+  if (name === "series") return "is-link is-light" + sizer
+  if (name === "programming") return "is-info is-light" + sizer
 
   return sizer
 }

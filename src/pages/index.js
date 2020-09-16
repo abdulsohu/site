@@ -54,12 +54,7 @@ const IndexPage = () => (
     </p>
     <br />
     <p>
-      Outside of school, I like playing chess, getting design inspiration from
-      <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
-        {" "}
-        Dribbble
-      </a>
-      , and making{" "}
+      Outside of school, I like playing chess, and making{" "}
       <a
         href="https://www.notion.so/abdulsohu/some-videos-6a407b5fb58b479e9310e8e92bb23b69"
         target="_blank"
