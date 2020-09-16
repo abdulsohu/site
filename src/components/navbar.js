@@ -4,7 +4,7 @@ require("../styles/styles.scss")
 const NavBar = () => {
   return (
     <div style={{ marginTop: "1rem", marginBottom: "3rem" }}>
-      <div className="columns is-mobile is-variable is-1 is-narrow">
+      <div className="columns is-mobile is-variable is-1 is-narrow is-centered">
         <div className="column is-narrow">
           <a href="/">
             <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">

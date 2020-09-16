@@ -28,12 +28,20 @@ const IndexPage = () => (
 
     <p>
       I'm an undergraduate at the University of Pennsylvania studying computer
-      science and logic. At Penn, I also maintain the front-end for
+      science and logic. At Penn, I currently maintain the front-end for
       <a href="https://www.nso.upenn.edu/" target="_blank" rel="noreferrer">
         {" "}
         NSOAI
       </a>
-      , and this summer, I will be beta testing a computer science
+      , and work on interesting problems in Big Data for{" "}
+      <a
+        href="https://mgmt.wharton.upenn.edu/profile/kapoorr/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Dr. Rahul Kapoor
+      </a>
+      . In the past, I beta-tested a computer science
       <a
         href="https://www.seas.upenn.edu/~cis550/"
         target="_blank"
@@ -46,13 +54,21 @@ const IndexPage = () => (
     </p>
     <br />
     <p>
-      Outside of school, I like playing chess, and admiring cool things on
+      Outside of school, I like playing chess, getting design inspiration from
       <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
         {" "}
         Dribbble
-      </a>{" "}
-      (sometimes making a few of my own). On this website, you can learn more
-      about what I am upto! If you would like to reach out, feel free to
+      </a>
+      , and making{" "}
+      <a
+        href="https://www.notion.so/abdulsohu/some-videos-6a407b5fb58b479e9310e8e92bb23b69"
+        target="_blank"
+        rel="noreferrer"
+      >
+        videos
+      </a>
+      . On this website, you can learn more about what I am upto! If you would
+      like to reach out, feel free to
       <a href="mailto:sohu@sas.upenn.edu">
         {" "}
         email{" "}
