@@ -7,9 +7,25 @@ import IdeasCreatures from "../images/projects.svg"
 import OscarScraper from "../images/oscar.svg"
 import Website from "../images/website.svg"
 
+function handleClick() {
+  const div = document.getElementsByClassName("notification").item(0)
+  div.style.display = "none"
+}
+
 const Projects = () => (
   <Layout>
     <SEO title="Projects"></SEO>
+
+    <div className="notification is-info is-light" style={{ padding: "1em" }}>
+      <button className="delete" onClick={handleClick}></button>
+      <p style={{ fontSize: "14px" }}>
+        Sometimes, life gives you lemons. Right now, I'm making some lemonade
+        and can't update this page frequently{" "}
+        <span role="img" aria-label="lemon emoji">
+          🍋
+        </span>
+      </p>
+    </div>
 
     <img
       style={{ paddingTop: "0.5rem", paddingBottom: "2rem" }}
