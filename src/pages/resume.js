@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BloomingCreatures from "../images/blooming.svg"
-import ResumePdf from "../files/101920Resume.pdf"
+import ResumePdf from "../files/102520Resume.pdf"
 
 const Resume = () => (
   <Layout>
