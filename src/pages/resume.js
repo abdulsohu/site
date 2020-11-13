@@ -8,7 +8,7 @@ import ResumePdf from "../files/102520Resume.pdf"
 
 const Resume = () => (
   <Layout>
-    <SEO title="Abdul Sohu"></SEO>
+    <SEO title="Resume"></SEO>
     <div className="image">
       <img
         style={{
