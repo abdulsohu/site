@@ -41,14 +41,14 @@ const IndexPage = () => (
       >
         Dr. Rahul Kapoor
       </a>
-      . In the past, I beta-tested a computer science
+      . Recently, I also built a website dedicated to UPenn's
       <a
-        href="https://www.seas.upenn.edu/~cis550/"
+        href="https://www.preceptorials.com"
         target="_blank"
         rel="noreferrer"
       >
         {" "}
-        course{" "}
+        Preceptorials{" "}
       </a>
       as well!
     </p>
