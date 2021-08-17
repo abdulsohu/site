@@ -50,7 +50,8 @@ const IndexPage = () => (
         {" "}
         Preceptorials{" "}
       </a>
-      as well!
+      as well! In general, as a computer science student, 
+      I love building technical applications at the University of Pennsylvania!
     </p>
     <br />
     <p>
