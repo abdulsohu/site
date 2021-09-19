@@ -22,7 +22,7 @@ const NavBar = () => {
                 </div>
 
 
-                <div className="column is-narrow">
+                {/* <div className="column is-narrow">
                     <a href="/projects">
                         <span className="tag has-background-grey-dark has-text-white has-text-weight-bold">
                             Ideas
@@ -36,7 +36,7 @@ const NavBar = () => {
                             Resume
             </span>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     )

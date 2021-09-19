@@ -27,56 +27,30 @@ const IndexPage = () => (
     </h1>
 
     <p>
-      I'm an undergraduate at the University of Pennsylvania studying computer
-      science and logic. At Penn, I currently maintain the front-end for
-      <a href="https://www.nso.upenn.edu/" target="_blank" rel="noreferrer">
-        {" "}
-        NSOAI
-      </a>
-      , and work on interesting problems in Big Data for{" "}
-      <a
-        href="https://mgmt.wharton.upenn.edu/profile/kapoorr/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Dr. Rahul Kapoor
-      </a>
-      . Recently, I also built a website dedicated to UPenn's
-      <a
-        href="https://www.preceptorials.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        {" "}
-        Preceptorials{" "}
-      </a>
-      as well! In general, as a computer science student, 
-      I love building technical applications at the University of Pennsylvania!
+      I studied computer science and logic at the University of Pennsylvania.
+      These days, I work on interesting problems in software engineering,
+      and application development.
     </p>
     <br />
-    <p>
-      Outside of school, I like playing chess, and making{" "}
+    {/**
+     <p>
+      Outside of school, I waste a lot of time on chess, and making{" "}
       <a
         href="https://www.notion.so/abdulsohu/some-videos-6a407b5fb58b479e9310e8e92bb23b69"
         target="_blank"
         rel="noreferrer"
       >
         videos
-      </a>
-      . On this website, you can learn more about what I am upto! If you would
-      like to reach out, feel free to
-      <a href="mailto:sohu@sas.upenn.edu">
-        {" "}
-        email{" "}
-        <ion-icon
-          name="mail-outline"
-          size="medium"
-          className="hvr-grow"
-        ></ion-icon>
-      </a>{" "}
-      me.
+      </a>.
     </p>
     <br />
+     */}
+    <p>
+      This website serves no other purpose except that it boosts my ego
+      and looks pretty. About that ego thing, my random thoughts in the blog 
+      section don't count. Also, there might or might not be easter eggs on 
+      this website :)
+    </p>
   </Layout>
 )
 
