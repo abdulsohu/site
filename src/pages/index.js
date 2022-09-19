@@ -28,8 +28,7 @@ const IndexPage = () => (
 
     <p>
       I studied computer science and logic at the University of Pennsylvania.
-      These days, I write code. I am currently (actively) seeking research
-      opportunities in computer science, and finance: I have a <em>penchant</em> for these.
+      These days, I write code.
     </p>
     <br />
     {/**
@@ -45,10 +44,10 @@ const IndexPage = () => (
     </p>
     <br />
      */}
-    <p>
-      I also have a lot of randomly organized thoughts that would belong 
-      in the blog section, at some point at least. Stay tuned, I guess? 
-    </p>
+//     <p>
+//       I also have a lot of randomly organized thoughts that would belong 
+//       in the blog section, at some point at least. Stay tuned, I guess? 
+//     </p>
   </Layout>
 )
 
