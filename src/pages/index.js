@@ -23,13 +23,11 @@ const IndexPage = () => (
     </div>
 
     <h1 className="title is-2" style={{ marginTop: "1rem" }}>
-      Hi, I'm Abdul :)
+      Hi!
     </h1>
 
     <p>
-      I studied computer science and logic at the University of Pennsylvania.
-      These days, I work on interesting problems in software engineering,
-      and application development.
+      I'm Abdul. I studied computer science and logic at the University of Pennsylvania.
     </p>
     <br />
     {/**
@@ -45,12 +43,6 @@ const IndexPage = () => (
     </p>
     <br />
      */}
-    <p>
-      This website serves no other purpose except that it boosts my ego
-      and looks pretty. About that ego thing, my random thoughts in the blog 
-      section don't count. Also, there might or might not be easter eggs on 
-      this website :)
-    </p>
   </Layout>
 )
 
