@@ -28,7 +28,6 @@ const IndexPage = () => (
 
     <p>
       I studied computer science and logic at the University of Pennsylvania.
-      These days, I write code and do some computer science-y stuff.
     </p>
     <br />
     {/**
