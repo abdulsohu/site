@@ -23,11 +23,11 @@ const IndexPage = () => (
     </div>
 
     <h1 className="title is-2" style={{ marginTop: "1rem" }}>
-      Hi, I'm Abdul :)
+      Hi!
     </h1>
 
     <p>
-      I studied computer science and logic at the University of Pennsylvania.
+      I'm Abdul. I studied computer science and logic at the University of Pennsylvania.
     </p>
     <br />
     {/**
